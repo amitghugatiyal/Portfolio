@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css">
+    <!-- EmailJS script for initializing EmailJS -->
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("y8XBSXWchT5p1PdLu");  // Replace with your actual User ID
+        })();
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a href="#home" class="logo">Amit <span>Ghugatiyal</span></a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <!-- End of Header -->
+<!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's<span>Amit</span></h1>
+            <h3>I'm <span>Frontend Developer</span></h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, doloremque modi? Alias architecto est, porro fugit quis sint quam blanditiis quasi sapiente. Enim, rem ad?</p>
+
+            <div class="social-icon">
+                <a href=""><i class='bx bxl-linkedin'></i></a>
+                <a href=""><i class='bx bxl-instagram'></i></a>
+                <a href=""><i class='bx bxl-facebook'></i></a>
+                <a href=""><i class='bx bxl-twitter'></i></a>
+            </div>
+            <div class="btn-group">
+                <a href="#" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+
+        <div class="home-img"><img src="img/itachi8.jpg" alt=""></div>
+    </section>
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/itachi8.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores eligendi iusto voluptate quia odit laboriosam provident iste explicabo recusandae itaque cupiditate, labore perferendis, quo perspiciatis?</p>
+            <a href="" class="btn">Read More</a>
+        </div>
+    </section>
+    <!-- End of About -->
+
+    <!-- Services -->
+    <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bxs-devices"></i>
+                    <h4>Web Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ab iusto iure a numquam provident ipsa voluptatem commodi eum! Beatae velit cum odit porro voluptas ipsam facere laboriosam perspiciatis maiores.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-code"></i>
+                    <h4>Web Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ab iusto iure a numquam provident ipsa voluptatem commodi eum! Beatae velit cum odit porro voluptas ipsam facere laboriosam perspiciatis maiores.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-code-curly"></i>
+                    <h4>Web Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ab iusto iure a numquam provident ipsa voluptatem commodi eum! Beatae velit cum odit porro voluptas ipsam facere laboriosam perspiciatis maiores.</p>
+                </div>
+            </div>
+    </section>
+            <!-- End of Services -->
+
+            <!-- Contact -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#" id="per_form">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Enter Your Name" name="name" required>
+                    <input type="email" placeholder="Enter Your email" name="email" required>
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Enter Your Mobile No." name="phone" required>
+                    <input type="text" placeholder="Subject" name="subject" required>
+                </div>
+            </div>
+            <div class="input-group-2">
+                <textarea id="" cols="30" rows="10" placeholder="Your Message..." name="message" required></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+                
+        </form>
+     </section>
+
+     <footer class="footer">
+        <div class="social-icon">
+            <a href=""><i class='bx bxl-linkedin'></i></a>
+                <a href=""><i class='bx bxl-instagram'></i></a>
+                <a href=""><i class='bx bxl-facebook'></i></a>
+                <a href=""><i class='bx bxl-twitter'></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="">FAQs</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#Contact">Contact Me</a></li>
+        </ul>
+        <p class="copyright"> @Amit Ghugatiyal \ All Rights Reserved</p>
+     </footer>
+
+    <script src="file.js"></script>
+    <!-- Script to handle form submission using EmailJS -->
+    <script type="text/javascript">
+        document.getElementById('per_form').addEventListener('submit', function(e) {
+            e.preventDefault(); // Prevent the default form submission
+
+            // Use EmailJS to send form data
+            emailjs.sendForm('service_tbhh2oe', 'template_2g62f2z', this)
+                .then(function(response) {
+                    console.log('SUCCESS!', response.status, response.text);
+                    alert('Review submitted successfully!');
+                }, function(error) {
+                    console.log('FAILED...', error);
+                    alert('There was an error submitting your review. Please try again.');
+                });
+                const form = document.getElementById('per_form');
+                form.reset();
+        });
+    </script>
+</body>
+</html>
